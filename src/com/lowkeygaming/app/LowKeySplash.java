@@ -1,5 +1,6 @@
-package rss.reader.lowkeygaming;
+package com.lowkeygaming.app;
 
+import rss.reader.lowkeygaming.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

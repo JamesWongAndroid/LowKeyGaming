@@ -13,12 +13,12 @@ public final class R {
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_header_layout_resourceID=0x7f010002;
+        public static final int card_header_layout_resourceID=0x7f01000a;
         /**  Layout to build a card. Default value is  @layout/card_base_layout 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_layout_resourceID=0x7f010000;
+        public static final int card_layout_resourceID=0x7f010008;
         /**  Height of divider used in the list 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -29,22 +29,96 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int card_list_item_dividerHeight=0x7f010005;
+        public static final int card_list_item_dividerHeight=0x7f01000d;
         /**  Layout to build a shadow. Default value is @layout/base_shadow_layout 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_shadow_layout_resourceID=0x7f010001;
+        public static final int card_shadow_layout_resourceID=0x7f010009;
         /**  Layout to build a Thumbnail. Default value is @layout/base_thumbnail_layout 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int card_thumbnail_layout_resourceID=0x7f010003;
+        public static final int card_thumbnail_layout_resourceID=0x7f01000b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int column_count=0x7f010000;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int column_count_landscape=0x7f010002;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int column_count_portrait=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int grid_paddingBottom=0x7f010007;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int grid_paddingLeft=0x7f010004;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int grid_paddingRight=0x7f010005;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int grid_paddingTop=0x7f010006;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int item_margin=0x7f010003;
         /**  Layout used by card in a ListView. Default value is  @layout/list_card_layout 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int list_card_layout_resourceID=0x7f010004;
+        public static final int list_card_layout_resourceID=0x7f01000c;
     }
     public static final class color {
         public static final int card_activated=0x7f040006;
@@ -146,107 +220,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activated_background_card=0x7f020000;
         public static final int activated_background_kitkat_card=0x7f020001;
         public static final int bg2=0x7f020002;
-        public static final int bg3=0x7f020003;
-        public static final int card_background=0x7f020004;
-        public static final int card_foreground_kitkat_selector=0x7f020005;
-        public static final int card_foreground_selector=0x7f020006;
-        public static final int card_kitkat_selector=0x7f020007;
-        public static final int card_menu_button_expand=0x7f020008;
-        public static final int card_menu_button_overflow=0x7f020009;
-        public static final int card_menu_button_rounded_overflow=0x7f02000a;
-        public static final int card_multichoice_selector=0x7f02000b;
-        public static final int card_selector=0x7f02000c;
-        public static final int card_shadow=0x7f02000d;
-        public static final int card_undo=0x7f02000e;
-        public static final int ic_launcher=0x7f02000f;
-        public static final int ic_launcher_hdpi=0x7f020010;
-        public static final int ic_launcher_mdpi=0x7f020011;
-        public static final int ic_launcher_xhdpi=0x7f020012;
-        public static final int ic_menu_expand_card_dark_normal=0x7f020013;
-        public static final int ic_menu_expand_card_dark_pressed=0x7f020014;
-        public static final int ic_menu_overflow_card_dark_normal=0x7f020015;
-        public static final int ic_menu_overflow_card_dark_pressed=0x7f020016;
-        public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f020017;
-        public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f020018;
-        public static final int ic_undobar_undo=0x7f020019;
-        public static final int lkglogo=0x7f02001a;
-        public static final int lowkeybackground=0x7f02001b;
-        public static final int lowkeygaming_placeholder=0x7f02001c;
-        public static final int lowkeygaminglogojames=0x7f02001d;
-        public static final int orange=0x7f02001e;
-        public static final int orange_card_background=0x7f02001f;
-        public static final int orange_longest_border=0x7f020020;
-        public static final int orange_shadow=0x7f020021;
-        public static final int oranger_longer_shadow=0x7f020022;
-        public static final int pressed_background_card=0x7f020023;
-        public static final int pressed_background_kitkat_card=0x7f020024;
-        public static final int undobar=0x7f020025;
-        public static final int undobar_button_focused=0x7f020026;
-        public static final int undobar_button_pressed=0x7f020027;
-        public static final int undobar_divider=0x7f020028;
-        public static final int videotag=0x7f020029;
+        public static final int bg2_flip=0x7f020003;
+        public static final int bg3=0x7f020004;
+        public static final int card_background=0x7f020005;
+        public static final int card_drag=0x7f020006;
+        public static final int card_foreground_kitkat_selector=0x7f020007;
+        public static final int card_foreground_selector=0x7f020008;
+        public static final int card_kitkat_selector=0x7f020009;
+        public static final int card_menu_button_expand=0x7f02000a;
+        public static final int card_menu_button_overflow=0x7f02000b;
+        public static final int card_menu_button_rounded_overflow=0x7f02000c;
+        public static final int card_multichoice_selector=0x7f02000d;
+        public static final int card_selector=0x7f02000e;
+        public static final int card_shadow=0x7f02000f;
+        public static final int card_undo=0x7f020010;
+        public static final int ic_launcher=0x7f020011;
+        public static final int ic_launcher_hdpi=0x7f020012;
+        public static final int ic_launcher_mdpi=0x7f020013;
+        public static final int ic_launcher_xhdpi=0x7f020014;
+        public static final int ic_menu_expand_card_dark_normal=0x7f020015;
+        public static final int ic_menu_expand_card_dark_pressed=0x7f020016;
+        public static final int ic_menu_overflow_card_dark_normal=0x7f020017;
+        public static final int ic_menu_overflow_card_dark_pressed=0x7f020018;
+        public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f020019;
+        public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f02001a;
+        public static final int ic_undobar_undo=0x7f02001b;
+        public static final int lkglogo=0x7f02001c;
+        public static final int lkglogo_small=0x7f02001d;
+        public static final int lowkeybackground=0x7f02001e;
+        public static final int lowkeygaming_placeholder=0x7f02001f;
+        public static final int lowkeygaminglogojames=0x7f020020;
+        public static final int lowkeyicon=0x7f020021;
+        public static final int lowkeyiconhalf=0x7f020022;
+        public static final int orange=0x7f020023;
+        public static final int orange_card_background=0x7f020024;
+        public static final int orange_card_background_widen=0x7f020025;
+        public static final int orange_longest_border=0x7f020026;
+        public static final int orange_shadow=0x7f020027;
+        public static final int oranger_longer_shadow=0x7f020028;
+        public static final int pressed_background_card=0x7f020029;
+        public static final int pressed_background_kitkat_card=0x7f02002a;
+        public static final int tilebackground=0x7f02002b;
+        public static final int undobar=0x7f02002c;
+        public static final int undobar_button_focused=0x7f02002d;
+        public static final int undobar_button_pressed=0x7f02002e;
+        public static final int undobar_divider=0x7f02002f;
+        public static final int videotag=0x7f020030;
     }
     public static final class id {
-        public static final int card_base_empty_cardwithlist_text=0x7f0a0008;
-        public static final int card_children_simple_title=0x7f0a0005;
-        public static final int card_content_expand_layout=0x7f0a000e;
-        public static final int card_expand_inner_simple_title=0x7f0a0015;
-        public static final int card_header_button_expand=0x7f0a0003;
-        public static final int card_header_button_frame=0x7f0a0001;
-        public static final int card_header_button_other=0x7f0a0004;
-        public static final int card_header_button_overflow=0x7f0a0002;
-        public static final int card_header_inner_frame=0x7f0a0000;
-        public static final int card_header_inner_simple_title=0x7f0a0016;
-        public static final int card_header_layout=0x7f0a000d;
-        public static final int card_inner_base_empty_cardwithlist=0x7f0a0019;
-        public static final int card_inner_base_main_cardwithlist=0x7f0a0018;
-        public static final int card_inner_base_progressbar_cardwithlist=0x7f0a001a;
-        public static final int card_main_content_layout=0x7f0a000a;
-        public static final int card_main_inner_secondary_title=0x7f0a001f;
-        public static final int card_main_inner_simple_title=0x7f0a0017;
-        public static final int card_main_layout=0x7f0a000c;
-        public static final int card_overlap=0x7f0a000f;
-        public static final int card_shadow_layout=0x7f0a000b;
-        public static final int card_shadow_view=0x7f0a0006;
-        public static final int card_thumb_and_content_layout=0x7f0a0010;
-        public static final int card_thumbnail_image=0x7f0a0007;
-        public static final int card_thumbnail_layout=0x7f0a0011;
-        public static final int list_cardId=0x7f0a001b;
-        public static final int list_card_undobar=0x7f0a001c;
-        public static final int list_card_undobar_button=0x7f0a001e;
-        public static final int list_card_undobar_message=0x7f0a001d;
-        public static final int myList=0x7f0a0009;
-        public static final int undobar=0x7f0a0012;
-        public static final int undobar_button=0x7f0a0014;
-        public static final int undobar_message=0x7f0a0013;
+        public static final int articlePicture=0x7f0a0001;
+        public static final int articleText=0x7f0a0002;
+        public static final int card_base_empty_cardwithlist_text=0x7f0a000b;
+        public static final int card_children_simple_title=0x7f0a0008;
+        public static final int card_content_expand_layout=0x7f0a0011;
+        public static final int card_expand_inner_simple_title=0x7f0a0018;
+        public static final int card_header_button_expand=0x7f0a0006;
+        public static final int card_header_button_frame=0x7f0a0004;
+        public static final int card_header_button_other=0x7f0a0007;
+        public static final int card_header_button_overflow=0x7f0a0005;
+        public static final int card_header_inner_frame=0x7f0a0003;
+        public static final int card_header_inner_simple_title=0x7f0a0019;
+        public static final int card_header_layout=0x7f0a0010;
+        public static final int card_inner_base_empty_cardwithlist=0x7f0a001c;
+        public static final int card_inner_base_main_cardwithlist=0x7f0a001b;
+        public static final int card_inner_base_progressbar_cardwithlist=0x7f0a001d;
+        public static final int card_main_content_layout=0x7f0a000d;
+        public static final int card_main_inner_secondary_title=0x7f0a0022;
+        public static final int card_main_inner_simple_title=0x7f0a001a;
+        public static final int card_main_layout=0x7f0a000f;
+        public static final int card_overlap=0x7f0a0012;
+        public static final int card_shadow_layout=0x7f0a000e;
+        public static final int card_shadow_view=0x7f0a0009;
+        public static final int card_thumb_and_content_layout=0x7f0a0013;
+        public static final int card_thumbnail_image=0x7f0a000a;
+        public static final int card_thumbnail_layout=0x7f0a0014;
+        public static final int list_cardId=0x7f0a001e;
+        public static final int list_card_undobar=0x7f0a001f;
+        public static final int list_card_undobar_button=0x7f0a0021;
+        public static final int list_card_undobar_message=0x7f0a0020;
+        public static final int myList=0x7f0a000c;
+        public static final int titleText=0x7f0a0000;
+        public static final int undobar=0x7f0a0015;
+        public static final int undobar_button=0x7f0a0017;
+        public static final int undobar_message=0x7f0a0016;
     }
     public static final class integer {
         public static final int list_card_undobar_hide_delay=0x7f060000;
     }
     public static final class layout {
-        public static final int base_header_layout=0x7f030000;
-        public static final int base_list_expandable_children_layout=0x7f030001;
-        public static final int base_shadow_layout=0x7f030002;
-        public static final int base_thumbnail_layout=0x7f030003;
-        public static final int base_withlist_empty=0x7f030004;
-        public static final int base_withlist_progress=0x7f030005;
-        public static final int blog_post_list_screen=0x7f030006;
-        public static final int card_base_layout=0x7f030007;
-        public static final int card_layout=0x7f030008;
-        public static final int card_overlay_layout=0x7f030009;
-        public static final int card_thumbnail_layout=0x7f03000a;
-        public static final int card_thumbnail_overlay_layout=0x7f03000b;
-        public static final int card_undo_layout=0x7f03000c;
-        public static final int custom_card_thumbnail_layout=0x7f03000d;
-        public static final int inner_base_expand=0x7f03000e;
-        public static final int inner_base_header=0x7f03000f;
-        public static final int inner_base_main=0x7f030010;
-        public static final int inner_base_main_cardwithlist=0x7f030011;
-        public static final int list_card_layout=0x7f030012;
-        public static final int list_card_thumbnail_layout=0x7f030013;
-        public static final int list_card_undo_message=0x7f030014;
-        public static final int row_card=0x7f030015;
-        public static final int splashlayout=0x7f030016;
+        public static final int article_screen=0x7f030000;
+        public static final int base_header_layout=0x7f030001;
+        public static final int base_list_expandable_children_layout=0x7f030002;
+        public static final int base_shadow_layout=0x7f030003;
+        public static final int base_thumbnail_layout=0x7f030004;
+        public static final int base_withlist_empty=0x7f030005;
+        public static final int base_withlist_progress=0x7f030006;
+        public static final int blog_post_list_screen=0x7f030007;
+        public static final int card_base_layout=0x7f030008;
+        public static final int card_layout=0x7f030009;
+        public static final int card_overlay_layout=0x7f03000a;
+        public static final int card_thumbnail_layout=0x7f03000b;
+        public static final int card_thumbnail_overlay_layout=0x7f03000c;
+        public static final int card_undo_layout=0x7f03000d;
+        public static final int custom_card_thumbnail_layout=0x7f03000e;
+        public static final int inner_base_expand=0x7f03000f;
+        public static final int inner_base_header=0x7f030010;
+        public static final int inner_base_main=0x7f030011;
+        public static final int inner_base_main_cardwithlist=0x7f030012;
+        public static final int list_card_layout=0x7f030013;
+        public static final int list_card_thumbnail_layout=0x7f030014;
+        public static final int list_card_undo_message=0x7f030015;
+        public static final int row_card=0x7f030016;
+        public static final int splashlayout=0x7f030017;
     }
     public static final class plurals {
         /**  Card selected item with CAB 
@@ -268,6 +353,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
  Undo Controller
          */
         public static final int list_card_undo_title=0x7f070000;
+        public static final int loading=0x7f070004;
     }
     public static final class style {
         /** 
@@ -421,6 +507,156 @@ Style for simple title header inner view
           @attr name android:android_foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_android_foregroundInsidePadding = 2;
+        /** Attributes that can be used with a StaggeredGridView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #StaggeredGridView_column_count rss.reader.lowkeygaming:column_count}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_column_count_landscape rss.reader.lowkeygaming:column_count_landscape}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_column_count_portrait rss.reader.lowkeygaming:column_count_portrait}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingBottom rss.reader.lowkeygaming:grid_paddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingLeft rss.reader.lowkeygaming:grid_paddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingRight rss.reader.lowkeygaming:grid_paddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_grid_paddingTop rss.reader.lowkeygaming:grid_paddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #StaggeredGridView_item_margin rss.reader.lowkeygaming:item_margin}</code></td><td></td></tr>
+           </table>
+           @see #StaggeredGridView_column_count
+           @see #StaggeredGridView_column_count_landscape
+           @see #StaggeredGridView_column_count_portrait
+           @see #StaggeredGridView_grid_paddingBottom
+           @see #StaggeredGridView_grid_paddingLeft
+           @see #StaggeredGridView_grid_paddingRight
+           @see #StaggeredGridView_grid_paddingTop
+           @see #StaggeredGridView_item_margin
+         */
+        public static final int[] StaggeredGridView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#column_count}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:column_count
+        */
+        public static final int StaggeredGridView_column_count = 0;
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#column_count_landscape}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:column_count_landscape
+        */
+        public static final int StaggeredGridView_column_count_landscape = 2;
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#column_count_portrait}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:column_count_portrait
+        */
+        public static final int StaggeredGridView_column_count_portrait = 1;
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#grid_paddingBottom}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:grid_paddingBottom
+        */
+        public static final int StaggeredGridView_grid_paddingBottom = 7;
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#grid_paddingLeft}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:grid_paddingLeft
+        */
+        public static final int StaggeredGridView_grid_paddingLeft = 4;
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#grid_paddingRight}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:grid_paddingRight
+        */
+        public static final int StaggeredGridView_grid_paddingRight = 5;
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#grid_paddingTop}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:grid_paddingTop
+        */
+        public static final int StaggeredGridView_grid_paddingTop = 6;
+        /**
+          <p>This symbol is the offset where the {@link rss.reader.lowkeygaming.R.attr#item_margin}
+          attribute's value can be found in the {@link #StaggeredGridView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:item_margin
+        */
+        public static final int StaggeredGridView_item_margin = 3;
         /**  Used in card with list
            <p>Includes the following attributes:</p>
            <table>
@@ -432,7 +668,7 @@ Style for simple title header inner view
            @see #card_listItem_card_list_item_dividerHeight
          */
         public static final int[] card_listItem = {
-            0x7f010005
+            0x7f01000d
         };
         /**
           <p>
@@ -471,8 +707,8 @@ containing a value of this type.
            @see #card_options_list_card_layout_resourceID
          */
         public static final int[] card_options = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c
         };
         /**
           <p>
